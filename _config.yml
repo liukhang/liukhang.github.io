@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -57,6 +57,7 @@ plugins:
     - name: Less
     web_url: https://github.com/topics/less
     image_url: https://raw.githubusercontent.com/github/explore/3783a65676ba479267fec803885f070760fee4ac/topics/less/less.png
+    
     - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
