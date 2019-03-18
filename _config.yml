@@ -1,27 +1,27 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
 
-permalink: /:year/:month/:day/:title/
+  permalink: /:year/:month/:day/:title/
 
-defaults:
-  -
+  defaults:
+    -
     scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
-    values:
-      layout: "post"
+      values:
+        layout: "post"
 
-projects:
-  sort_by: pushed
+        projects:
+          sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 100
   exclude:
     forks: true
     projects:
@@ -39,13 +39,24 @@ projects:
   # youtube: your_username
   # vk: your_username
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  topics:
+    - name: Laravel
+    web_url: https://github.com/topics/laravel
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/laravel/laravel.png
 
-  - name: Web design
+    - name: Vue.js
+    web_url: https://github.com/topics/vuejs
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/vue/vue.png
 
-  - name: Sass
+    - name: Magento
+    web_url: https://github.com/topics/magento
+    image_url: 
+
+    - name: Web design
+
+    - name: Less
+    web_url: https://github.com/topics/less
+    image_url: https://raw.githubusercontent.com/github/explore/3783a65676ba479267fec803885f070760fee4ac/topics/less/less.png
+    - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
